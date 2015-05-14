@@ -71,7 +71,7 @@
 }
 
 // news images
-.media-list.news .media-object { max-width: 64px; }
+.media-list.news .media-object { width: 96px; max-width: 64px; }
 @media (min-width: 768px) {
 	.media-list.news .media-object { max-width: 96px; }
 }
