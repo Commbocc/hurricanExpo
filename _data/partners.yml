@@ -1,12 +1,10 @@
-- name: "Hillsborough County"
-  image: hc-logo.png
-  description: 0
-  url: 0
-- name: "City of Tampa"
-  image: city-tampa-logo.png
-  description: 0
-  url: 0
-- name: "MOSI"
-  image: mosi.jpg
-  description: 0
-  url: 0
+- img_src: 'aaa.png'
+- img_src: 'amica.png'
+- img_src: 'bn9.png'
+- img_src: 'duracell.png'
+- img_src: 'love-my-pets.png'
+- img_src: 'sprint.png'
+- img_src: 'tampa-trib.png'
+- img_src: 'tbf.png'
+- img_src: 'tbt.png'
+- img_src: 'wgul.png'
