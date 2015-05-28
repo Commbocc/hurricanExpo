@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  2015 Event Schedules
+title:  2015 Event & Panel Schedules
 date:   2015-05-27 15:30:00
 categories: news
 image: logo-full.png
