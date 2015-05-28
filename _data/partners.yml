@@ -1,10 +1,30 @@
-- img_src: 'aaa.png'
-- img_src: 'amica.png'
-- img_src: 'bn9.png'
-- img_src: 'duracell.png'
-- img_src: 'love-my-pets.png'
-- img_src: 'sprint.png'
-- img_src: 'tampa-trib.png'
-- img_src: 'tbf.png'
-- img_src: 'tbt.png'
-- img_src: 'wgul.png'
+- name: 'The Tampa Tribune'
+  img_src: 'tampa-trib'
+  description: "The Tampa Tribune’s 2015 Hurricane Guide is a three-county, all-inclusive source for the area’s annual hurricane season. From maps and flood charts to a guide on how to ensure the water you are drinking is clean, The Tampa Tribune provides this information to help ensure the safety and security of our most valuable asset, our readers."
+- name: 'AAA – Auto Club South'
+  img_src: 'aaa'
+  description: "AAA can provide you with one policy to cover your most valuable possessions — your home and vehicle. Our unique Package Policy for Home & Auto simplifies insurance protection and provides great value. With the Package Policy, enjoy excellent coverage that includes added features such as accident forgiveness and just one deductible on a covered loss affecting both your home and car. Policy discounts are available that could significantly lower your premium and save hundreds of dollars, including a AAA member discount.  And with AAA, you can have the confidence of dealing with one of the most trusted, dependable companies around."
+- name: ''
+  img_src: 'amica'
+  description: ""
+- name: ''
+  img_src: 'bn9'
+  description: ""
+- name: 'Duracell Power Forward'
+  img_src: 'duracell'
+  description: "Since 2011, Duracell Power Forward has provided batteries, power and comfort to those in need. The fleet has deployed to 20 disaster locations and helped more than 30,000 families by distributing over 350,000 batteries, charging over 7,000 devices, and providing computer access to over 5,000 people. The new Duracell Power Forward fleet has expanded to include five custom-made vehicles designed for the needs of each region and disasters it will service. This fleet is strategically stationed in Manchester, N.H., St. Louis, New Orleans, and San Francisco, to reach any disaster in the continental U.S. within 24 hours. Visit www.duracell.com/en-us/power-forward."
+- name: 'Love My Pets Glow Protection System'
+  img_src: 'love-my-pets'
+  description: "The Love My Pets Glow Protection System is a unique GLOW in the dark AND reflective pet safety collar. We also offer free custom text for easily seen basic identification or alert to special needs."
+- name: 'Sprint'
+  img_src: 'sprint'
+  description: "Sprint offers the Best Value in Wireless. Ask about how you can “Cut Your Cellular Bill in Half” with a Sprint Sales Professional."
+- name: 'Tampa Bay Federal Credit Union'
+  img_src: 'tbf'
+  description: "Tampa Bay Federal is a member-owned financial cooperative serving the community since 1935. We offer a full range of deposit products including Free and Rewards Checking, low rates on our loans, an extensive ATM network, and investment products. Enjoy features such as a full service contact center, mobile deposit, online and mobile banking. Our purpose is to Serve Members Changing Financial Needs…with Pleasure. Visit our website at TampaBayFederal.com or call (813) 247-4414 to learn more on becoming a member today, and our convenient locations and options to serve you. "
+- name: ''
+  img_src: 'tbt'
+  description: ""
+- name: 'Salem Media'
+  img_src: 'wgul'
+  description: "AM 860 The Answer is Tampa’s Conservative Talk Radio Station. At AM 860 The Answer, we’re committed to delivering the finest in conservative talk radio. We strive to provide the best in news talk programming to our audience, our advertisers and throughout the community we live in and serve. You can listen on-air at AM 860, online at AM860TheAnswer.com or through our mobile app. You can also connect with us on Facebook and Twitter. Just search for AM 860 The Answer."
