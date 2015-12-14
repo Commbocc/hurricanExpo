@@ -18,3 +18,8 @@ googleanalytics: 'UA-63036279-2'
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+gems:
+ - jekyll-coffeescript
+ - jekyll-paginate

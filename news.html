@@ -6,17 +6,17 @@ permalink: /news/
 
 <ul class="media-list news">
 	{% for post in site.posts %}
-	<li class="media">
+	<li class="media thumbnail">
 		{% if post.image %}
 		<div class="media-left">
 			<a href="{{ post.url | prepend: site.baseurl }}">
-				<img class="media-object img-thumbnail" src="{{site.baseurl}}/images/{{ post.image }}" alt="{{ post.title }}">
+				<img class="media-object img-responsive" src="{{site.baseurl}}/images/{{ post.image }}" alt="{{ post.title }}">
 			</a>
 		</div>
 		{% elsif post.remote_image %}
 		<div class="media-left">
 			<a href="{{ post.url | prepend: site.baseurl }}">
-				<img class="media-object img-thumbnail" src="{{ post.remote_image }}" alt="{{ post.title }}">
+				<img class="media-object img-responsive" src="{{ post.remote_image }}" alt="{{ post.title }}">
 			</a>
 		</div>
 		{% endif %}

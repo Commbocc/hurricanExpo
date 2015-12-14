@@ -10,7 +10,8 @@
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top:   $caret-width-base solid;
+  border-top:   $caret-width-base dashed;
+  border-top:   $caret-width-base solid \9; // IE8
   border-right: $caret-width-base solid transparent;
   border-left:  $caret-width-base solid transparent;
 }
@@ -67,7 +68,7 @@
     clear: both;
     font-weight: normal;
     line-height: $line-height-base;
-    color: $dropdown-link-color !important;
+    color: $dropdown-link-color;
     white-space: nowrap; // prevent links from randomly breaking onto new lines
   }
 }
@@ -77,7 +78,7 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $dropdown-link-hover-color !important;
+    color: $dropdown-link-hover-color;
     background-color: $dropdown-link-hover-bg;
   }
 }
@@ -87,7 +88,7 @@
   &,
   &:hover,
   &:focus {
-    color: $dropdown-link-active-color !important;
+    color: $dropdown-link-active-color;
     text-decoration: none;
     outline: 0;
     background-color: $dropdown-link-active-bg;
@@ -102,7 +103,7 @@
   &,
   &:hover,
   &:focus {
-    color: $dropdown-link-disabled-color !important;
+    color: $dropdown-link-disabled-color;
   }
 
   // Nuke hover/focus effects
@@ -154,7 +155,7 @@
   padding: 3px 20px;
   font-size: $font-size-small;
   line-height: $line-height-base;
-  color: $dropdown-header-color !important;
+  color: $dropdown-header-color;
   white-space: nowrap; // as with > li > a
 }
 
@@ -184,7 +185,8 @@
   // Reverse the caret
   .caret {
     border-top: 0;
-    border-bottom: $caret-width-base solid;
+    border-bottom: $caret-width-base dashed;
+    border-bottom: $caret-width-base solid \9; // IE8
     content: "";
   }
   // Different positioning for bottom up menu
