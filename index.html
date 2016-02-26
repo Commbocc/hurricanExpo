@@ -3,18 +3,20 @@ layout: default
 ---
 
 <div class="jumbotron">
-	<h1>
-		{{site.title}}<br>
-		<small>{{ site.event_date | date: "%A %B %-d, %Y" }} at MOSI</small>
-	</h1>
-	<div class="row">
-		<p class="col-sm-9 caption">
-			There’s something for everyone at the largest expo of its kind in Tampa Bay!
-		</p>
+	<div class="container">
+		<h1>
+			{{site.title}}<br>
+			<small>{{ site.event_date | date: "%A %B %-d, %Y" }} at MOSI</small>
+		</h1>
+		<div class="row">
+			<p class="col-sm-9 caption">
+				There’s something for everyone at the largest expo of its kind in Tampa Bay!
+			</p>
+		</div>
+		<a href="{{site.baseurl}}{% post_url 2015-03-25-2015-expo %}">
+			<img id="freeAdmission" class="hidden-xs" src="{{site.baseurl}}/images/free-admission.png">
+		</a>
 	</div>
-	<a href="{{site.baseurl}}{% post_url 2015-03-25-2015-expo %}">
-		<img id="freeAdmission" class="hidden-xs" src="{{site.baseurl}}/images/free-admission.png">
-	</a>
 </div>
 
 <header class="page-header">
@@ -60,7 +62,7 @@ layout: default
 				</a>
 			</div>
 		</div>
-		
+
 	</main>
 
 	<aside class="col-sm-5 col-md-4">
