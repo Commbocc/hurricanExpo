@@ -1,6 +1,7 @@
 # Site settings
 title: Tampa Bay Hurricane Expo
 email: info@hillsboroughcounty.org
+
 description: "The Tampa Bay Hurricane Expo will feature guest speakers, safety demonstrations, emergency vehicle displays, vendors of safety products, and personal disaster preparedness."
 
 baseurl: "/hurricaneExpo" # the subpath of your site, e.g. /blog/
@@ -10,7 +11,7 @@ url: "http://tampabayhurricaneexpo.com" # the base hostname & protocol for your 
 # paginate_path: "news/:num"
 
 timezone: America/New_York
-event_date: 2015-05-30 10:00:00 EST
+event_date: 2016-05-14 10:00:00 EST
 start_time: 10 a.m.
 end_time: 4 p.m.
 
