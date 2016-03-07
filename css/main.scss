@@ -9,6 +9,13 @@
 @import "bootstrap";
 @import "bootswatch/simplex/bootswatch";
 
+.center-vert img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
 .jumbotron {
 
 	background: url({{site.baseurl}}/images/hurricane.png) top left no-repeat;

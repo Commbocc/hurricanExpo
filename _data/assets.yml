@@ -1,7 +1,7 @@
 # will load from "{{site.baseurl}}/js/{{asset.src}}.js"
 js:
-    - src: partners
     - src: sponsors
+    - src: partners
     - src: footer
     - src: jquery.freetile.min
     - src: highcharts/highcharts

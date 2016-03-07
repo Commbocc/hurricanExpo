@@ -6,28 +6,26 @@ title: News and Information
 <ul class="media-list news">
 	{% for post in paginator.posts %}
 	<li class="media thumbnail">
-		{% if post.image %}
-		<div class="media-left">
-			<a href="{{ post.url | prepend: site.baseurl }}">
-				<img class="media-object img-responsive" src="{{site.baseurl}}/images/{{ post.image }}" alt="{{ post.title }}">
-			</a>
-		</div>
-		{% elsif post.remote_image %}
-		<div class="media-left">
-			<a href="{{ post.url | prepend: site.baseurl }}">
-				<img class="media-object img-responsive" src="{{ post.remote_image }}" alt="{{ post.title }}">
-			</a>
-		</div>
-		{% endif %}
-		<div class="media-body">
-			<h3 class="media-heading">
+		<div class="caption">
+			<div class="media-left">
 				<a href="{{ post.url | prepend: site.baseurl }}">
-					{{ post.title }}
+					{% if post.image %}
+					<img class="media-object img-responsive" src="{{site.baseurl}}/images/{{ post.image }}" alt="{{ post.title }}">
+					{% elsif post.remote_image %}
+					<img class="media-object img-responsive" src="{{ post.remote_image }}" alt="{{ post.title }}">
+					{% endif %}
 				</a>
-				<!-- <br> -->
-				<!-- <small>{{ post.date | date: "%b %-d, %Y" }}</small> -->
-			</h3>
-			{{ post.excerpt }}
+			</div>
+			<div class="media-body">
+				<h3 class="media-heading">
+					<a href="{{ post.url | prepend: site.baseurl }}">
+						{{ post.title }}
+					</a>
+					<br>
+					<small>{{ post.date | date: "%b %-d, %Y" }}</small>
+				</h3>
+				{{ post.excerpt }}
+			</div>
 		</div>
 	</li>
 	{% endfor %}
