@@ -4,6 +4,8 @@ email: info@hillsboroughcounty.org
 
 description: "The Tampa Bay Hurricane Expo will feature guest speakers, safety demonstrations, emergency vehicle displays, vendors of safety products, and personal disaster preparedness."
 
+tagline: 'Free Expo Admission – Free Parking – Free Admission to MOSI'
+
 baseurl: "/hurricaneExpo" # the subpath of your site, e.g. /blog/
 url: "http://tampabayhurricaneexpo.com" # the base hostname & protocol for your site
 
