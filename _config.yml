@@ -16,6 +16,10 @@ end_time: 4 p.m.
 
 googleanalytics: 'UA-63036279-2'
 
+collections:
+   partners:
+      output: false
+
 # Build settings
 markdown: kramdown
 
