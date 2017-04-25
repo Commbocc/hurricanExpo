@@ -1,18 +1,18 @@
 # Site settings
-title: Tampa Bay Hurricane Expo
+title: Hillsborough County Hurricane Expo
 email: info@hillsboroughcounty.org
 
 description: "The Tampa Bay Hurricane Expo will feature guest speakers, safety demonstrations, emergency vehicle displays, vendors of safety products, and personal disaster preparedness."
 
-tagline: '$5 All Day Admission to MOSI – Free Parking'
+tagline: 'Free & Open to the Public'
 
 baseurl: "/hurricaneExpo" # the subpath of your site, e.g. /blog/
 url: "http://tampabayhurricaneexpo.com" # the base hostname & protocol for your site
 
 timezone: America/New_York
-event_date: 2016-05-14 10:00:00 EST
-start_time: 10 a.m.
-end_time: 4 p.m.
+event_date: 2017-06-03 11:00:00 EST
+start_time: 11 a.m.
+end_time: 3 p.m.
 
 googleanalytics: 'UA-63036279-2'
 
