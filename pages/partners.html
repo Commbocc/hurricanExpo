@@ -1,42 +1,15 @@
 ---
 layout: page
-title: Sponsorships and Partners
+title: Partners in Preparedness
 permalink: /partners/
 ---
 
-{% if true %}
-<p class="text-center">
-	<em class="small">Select an image to read about that Partner</em>
-</p>
-
+{% if false %}
 <div id="partner-images">
 	{% for partner in site.partners%}
-	<img src="{{site.baseurl}}/images/sponsors/{{partner.img_src}}.png" alt="{{partner.name}}" class="img-thumbnail" data-toggle="modal" data-target="#partnerModal{{partner.img_src}}" style="max-width: 30%; {% if partner.name != '' %}cursor: pointer;{% endif %}">
+	<img src="{{site.baseurl}}/images/sponsors/{{partner.img_src}}.png" alt="{{partner.name}}" class="img-thumbnail" style="max-width: 31%;">
 	{% endfor %}
 </div>
-
-<!-- Modals -->
-{% for partner in site.partners%}
-{% if partner.name != '' %}
-<div class="modal fade" id="partnerModal{{partner.img_src}}" tabindex="-1" role="dialog" aria-labelledby="partnerModal{{partner.img_src}}Label" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="partnerModal{{partner.img_src}}Label">{{partner.name}}</h4>
-			</div>
-			<div class="modal-body">
-				{{partner.content}}
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-{% endif %}
-{% endfor %}
-
 {% endif %}
 
 <!-- <h3>Current Tampa Bay Hurricane Expo Vendors</h3> -->
